@@ -1,3 +1,15 @@
+variable "ami" {default = ""}
+variable "subnet_id" {default = ""}
+variable "environment" {default = ""}
+variable "vpc_security_group_ids" {default = ""}
+variable name { default = "EC2-default-name"}
+variable "region" {
+  default = "us-west-2"
+}
+
+variable "access_key" {default = ""}
+variable "secret_key" {default = ""}
+
 variable "identity" {
   default = "rpt"
 }

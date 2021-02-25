@@ -1,5 +1,3 @@
-access_key        = "AKIAXMT4EY5DEAEHSOPD"
-secret_key        = "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"
 ami               = "ami-07f5c641c23596eb9"
 subnet_id         = "subnet-031bf0c9a309fcd8d"
 identity          = "sams-terraform-frb-bird"

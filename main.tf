@@ -33,8 +33,6 @@ variable "servers" {
   }
 }
 
-provider "aws" { region = var.aws_region }
-
 resource "aws_instance" "web" {
   for_each               = var.servers
   ami                    = each.value.ami
